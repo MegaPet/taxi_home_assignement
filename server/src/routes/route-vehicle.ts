@@ -74,6 +74,7 @@ router.post("/api/listOptimal", async (req: Request, resp: Response) => {
       _request.passanger_count,
       _request.distance
     );
+    console.log(result)
   } catch (err) {
     console.error(err);
   }

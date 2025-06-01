@@ -6,3 +6,5 @@ dist
 .env
 # vscodes vars
 .vscode
+#sql try-outs
+DATABASE/playground.sql
