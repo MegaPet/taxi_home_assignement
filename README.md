@@ -10,6 +10,17 @@ command.
 
 ## Running the server
 
+the application uses .env, wich I did not include.
+to make sure the app works, make your own with following example:
+
+````
+PORT=5432
+NODE_ENV=development
+USERNAME=postgres
+PASSWORD=admin
+HOST=localhost
+```
+
 in the root directory give out the next commands:
 ```bash
 npm run build
