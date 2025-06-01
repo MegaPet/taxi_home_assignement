@@ -13,7 +13,7 @@ command.
 the application uses .env, wich I did not include.
 to make sure the app works, make your own with following example:
 
-````
+```
 PORT=5432
 NODE_ENV=development
 USERNAME=postgres
