@@ -1,0 +1,8 @@
+#dependendencies and such.
+node_modules 
+#compiled js
+dist
+#database env. datas.
+.env
+# vscodes vars
+.vscode
