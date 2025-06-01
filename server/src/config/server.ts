@@ -13,5 +13,5 @@ const vehicles = require("../routes/route-vehicle");
 server.use("/vehicles", vehicles);
  
 server.listen(port, () => {
-  console.log(`[ LISTENING ON PORT:\t${port}\t]\n`);
+  console.log(`[ LISTENING ON PORT: ${port} ]\n`);
 });
