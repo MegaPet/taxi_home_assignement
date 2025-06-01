@@ -74,7 +74,14 @@ router.post("/api/listOptimal", async (req: Request, resp: Response) => {
       _request.passanger_count,
       _request.distance
     );
-    console.log(result)
+    console.log(result.entries())
+    if (result){
+      resp.status(200).json(result);
+      return;
+    }
+
+      resp.status(400).json({success : false})
+
   } catch (err) {
     console.error(err);
   }
